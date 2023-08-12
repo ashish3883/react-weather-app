@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-image: url('https://img.freepik.com/free-vector/elegant-cloud-background-blue-sky-design_1017-25503.jpg?w=1380&t=st=1691865764~exp=1691866364~hmac=16ebd1e54425c81afef23df6ec73b8b638e69a694075ba1675c93d5eb2892f5b');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
